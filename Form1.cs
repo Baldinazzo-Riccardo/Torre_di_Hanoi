@@ -86,7 +86,7 @@ namespace TorrediHanoi
             int baseY = piolo.Bottom;
 
 
-            int y = baseY - ((posizione + 1) * disco.Height) - 6;
+            int y = baseY - ((posizione + 1) * disco.Height) - 6; 
 
 
             int x = piolo.Left + (piolo.Width - disco.Width) / 2;
